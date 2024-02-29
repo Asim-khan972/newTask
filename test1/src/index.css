@@ -1,0 +1,112 @@
+
+/* Colors */
+
+:root {
+    --white: #fff;
+    --grays-ligher-gray: #F4F4F4;
+    --grays-dm-white: #E1E1E1;
+    --grays-white-transparency: #FFFFFF26;
+    --grays-light-gray: #DBDBDB;
+    --black: #000000;
+    --grays-dm-background: #181818;
+    --grays-dm-input-bg: #272727;
+    --grays-card-color: #353535;
+    --grays-text-disable: #767676;
+    --grays-fill-disable: #C8C8C8;
+    --accent-stonger-blue: #2C64C3;
+    --accent-lighter-blue: #467EDC;
+    --accent-stong-blue: #3270D8;
+    --accent-blue-transparent: #467EDC33;
+    --cool-Green: #24CE85;
+    --b-Red: #D83232;
+    --bluepurple: #9780df;
+    --pureblack: #000000;
+    --pink: #F68BFF;
+    --purple: #6F47EB;
+    /* Text Colors */
+    --darkgrey: #5C5F62;
+    --lightgrey: #F9F9F9;
+    --lightblue: #EEE9FD;
+    --mediumgrey: #EDEDED;
+    --lightred: #FBE4E1;
+    --grey: #C5C5C5;
+    --error: #ffefef;
+    --success: rgb(162, 240, 162);
+    --whitegrey: #f9f9f9;
+    --btnbg: #ededed;
+  }
+  .navbar{
+    background-color: white;
+    border-bottom:2px solid var(--lightgrey) ;
+  }
+.navbar .navbar-brand{
+    color: var(--purple);
+    font-size: 22px;
+letter-spacing: 1px;
+font-weight: 600;  
+
+}
+.navbar li a{
+    font-size: 16px;
+    color: var(--accent-stonger-blue);
+    font-weight: 600;
+    cursor: pointer;
+}
+.navbar li .logout_btn{
+    background-color: var(--accent-stonger-blue);
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.register_form h4{
+font-size:24px;
+color: var(--purple);
+
+}
+.register_form label{
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.register_form input[type="radio"]{
+    height: 16px;
+    width: 16px;
+}
+.register_form input,.register_form select{
+    width:100%;
+    height: 40px;
+    border: 1px solid var(--btnbg);
+    border-radius: 4px;
+    padding-left: 10px;
+    color: var(--purple);
+}
+.register_form img{
+    height: 70px;
+    width: 70px;
+}
+.register_form button{
+    background-color: var(--accent-stonger-blue);
+width: 100%;
+color: white;
+font-weight: 600;
+letter-spacing: 1px;
+}
+.register_form button:hover{
+    border:1px solid var(--accent-stonger-blue);
+    background-color: white;
+width: 100%;
+color: var(--accent-stonger-blue);
+font-weight: 600;
+letter-spacing: 1px;
+}
+.vehicle_view table thead th {
+    font-size: 14px;
+}
+
+.vehicle_view table tbody td{
+    font-size: 12px;
+}
+.vehicle_view table tbody td img{
+height: 40px;
+width: 40px;
+}
